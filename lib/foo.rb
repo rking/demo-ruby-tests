@@ -1,5 +1,9 @@
 class Foo
   def hi
-    "OH! Hai!"
+    'OH! Hai!'
+  end
+
+  def bi
+    'Baibai nao!'
   end
 end
