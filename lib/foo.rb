@@ -1,6 +1,6 @@
 class Foo
   def hi
-    'OH! Hai!'
+    'Hello, there, good sir!'
   end
 
   def bi
