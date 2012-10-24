@@ -1,3 +1,3 @@
 require 'minitest/autorun'
-require 'plymouth'
+require 'pry-rescue/minitest'
 $:.unshift './lib'
