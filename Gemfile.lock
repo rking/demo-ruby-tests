@@ -1,4 +1,15 @@
 GIT
+  remote: git://github.com/guard/guard.git
+  revision: 5774c8fd826c15fc3ec4b8984815fd1e49a86e9d
+  branch: interactor/cleanup
+  specs:
+    guard (1.5.2)
+      listen (>= 0.4.2)
+      lumberjack (>= 1.0.2)
+      pry (>= 0.9.10)
+      thor (>= 0.14.6)
+
+GIT
   remote: git://github.com/pry/pry.git
   revision: 5e59fec82d6a6f4082607bd07411a71dbb33ead9
   branch: feature/save-source
@@ -31,11 +42,6 @@ GEM
       diff-lcs (~> 1.1)
       mime-types (~> 1.15)
       posix-spawn (~> 0.3.6)
-    guard (1.5.0)
-      listen (>= 0.4.2)
-      lumberjack (>= 1.0.2)
-      pry (>= 0.9.10)
-      thor (>= 0.14.6)
     guard-minitest (0.5.0)
       guard (>= 0.4)
     highline (1.6.15)
@@ -122,7 +128,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  guard (>= 1.5.0)
+  guard!
   guard-minitest
   minitest
   pry!

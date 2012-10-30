@@ -4,7 +4,7 @@ group :development do
   gem 'pry', github: 'pry', branch: 'feature/save-source'
   gem 'pry-rescue', '>= 0.13.pre.2' # for pry-rescue/minitest
   gem 'pry-de' # Pull in pry-full plus a few choice bits. More to come
-  gem 'guard', '>= 1.5.0' # 1.5.0 has Pry as the interactor!
+  gem 'guard', github: 'guard', branch: 'interactor/cleanup'
   gem 'guard-minitest'
   gem 'rb-inotify', require: false # No harm when installed on OS X
   gem 'rb-fsevent', require: false # No harm when installed on Linux!
