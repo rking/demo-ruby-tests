@@ -1,4 +1,4 @@
-require 'test/unit'
+require 'minitest/unit'
 require 'spork'
 $:.unshift './lib'
 
