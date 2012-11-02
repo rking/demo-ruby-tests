@@ -1,6 +1,6 @@
 require 'test_helper'
 require 'foo'
-class TestFoo < MiniTest::Unit::TestCase
+class TestFoo < Test::Unit::TestCase
   def test_foo_one
     assert_equal 'Oh, Hai!', Foo.new.hi
   end
