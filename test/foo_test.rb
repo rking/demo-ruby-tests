@@ -1,7 +1,8 @@
-require 'test_helper'
-require 'foo'
-class TestFoo < MiniTest::Unit::TestCase
-  def test_foo_one
-    assert_equal 'Oh, Hai!', Foo.new.hi
+require 'pry-rescue/minitest'
+require 'minitest/autorun'
+
+class FooTest < MiniTest::Unit::TestCase
+  def test_foo
+    assert_equal 1, 3
   end
 end
