@@ -1,7 +1,7 @@
 require 'spork'
+require 'turn'
 require 'minitest/autorun'
 require 'pry-rescue/minitest' if ENV['test_rescue']
-require 'turn'
 $:.unshift './lib'
 
 Turn.config do |c|
