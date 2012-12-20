@@ -1,5 +1,8 @@
 # More info at https://github.com/guard/guard#readme
 
+# Rerun bundler, if needed
+guard 'bundler' do watch /^(Gemfile|.*\.gemspec)$/ end
+
 # These reboot spork completely
 guard 'spork',
   minitest: true,
