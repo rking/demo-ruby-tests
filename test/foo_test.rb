@@ -1,4 +1,4 @@
-require 'test_helper'
+require './test/test_helper'
 require 'foo'
 class TestFoo < MiniTest::Unit::TestCase
   def test_foo_one
