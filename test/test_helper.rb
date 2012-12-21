@@ -1,5 +1,5 @@
-require 'spork'
-require 'turn'
+require 'bundler'
+Bundler.require :development, :test
 require 'minitest/autorun'
 require 'pry-rescue/minitest' if ENV['test_rescue']
 $:.unshift './lib'

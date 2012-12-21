@@ -1,5 +1,5 @@
 source :rubygems
-group :development do
+group :test do
   gem 'minitest' # use the gem for a few extra features compared to stdlib
   gem 'turn' # prettier minitest output
   gem 'guard' # watch file changes
@@ -11,6 +11,9 @@ group :development do
     github: 'rking/spork-minitest' # https://github.com/semaperepelitsa/spork-minitest/pull/10
   gem 'rb-inotify', require: false # No harm when installed on OS X
   gem 'rb-fsevent', require: false # No harm when installed on Linux!
+end
+
+group :test do
   gem 'pry-de' # pull in all of pry-full, plus a few handy commands.
   gem 'rake'
 end
